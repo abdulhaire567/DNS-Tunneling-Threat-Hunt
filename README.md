@@ -30,3 +30,4 @@ To begin, I started capturing network traffic using Wireshark. The focus was on 
 
 ## Step 2: Filtering DNS Traffic
 I applied a Wireshark filter to isolate DNS queries and identify any abnormal patterns, such as unusually long domain names or base32-encoded subdomains. The filter used was:
+![Capture](
