@@ -29,5 +29,6 @@ In this scenario, the attacker is using DNS tunneling to establish a covert comm
 To begin, I started capturing network traffic using Wireshark. The focus was on DNS traffic as it's the most common protocol used in tunneling. The captured packets help us analyze whether suspicious patterns are present.
 
 ## Step 2: Filtering DNS Traffic
-I applied a Wireshark filter to isolate DNS queries and identify any abnormal patterns, such as unusually long domain names or base32-encoded subdomains. The filter used was:
-![Capture](
+I applied a Wireshark filter to isolate DNS queries and identify any abnormal patterns, such as unusually long domain names or base32-encoded subdomains. This filter helps to capture unusually long DNS queries, which are characteristic of DNS tunneling.
+The filter used was:
+![Capture](https://github.com/abdulhaire567/DNS-Tunneling-Threat-Hunt/blob/main/Screenshot%202025-04-15%20172044.png)
