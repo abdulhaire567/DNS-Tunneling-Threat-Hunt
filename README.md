@@ -38,5 +38,5 @@ Upon reviewing the DNS traffic, I found unusually long subdomain names that appe
 ![Capture](https://github.com/abdulhaire567/DNS-Tunneling-Threat-Hunt/blob/main/Screenshot%202025-04-15%20201149.png)
 
 ## Threat Hunt Report
-I proceeded to make a threat hunt report with my findings and investigations using MITRE Attack Framework.
+I proceeded to make a threat hunt report with my findings and investigations using MITRE Attack Framework.The report will be available for viewing in a pdf format in repository files
 
