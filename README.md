@@ -35,3 +35,8 @@ The filter used was:
 
 ## Step 3: Analyzing Suspicious DNS Queries
 Upon reviewing the DNS traffic, I found unusually long subdomain names that appeared to contain Base32-encoded data. I stripped the subdomain to reveal the encoded data. This indicates that the attacker is using Base32 encoding to hide the data in the DNS query "pirate.sea"
+![Capture](https://github.com/abdulhaire567/DNS-Tunneling-Threat-Hunt/blob/main/Screenshot%202025-04-15%20201149.png)
+
+## Threat Hunt Report
+I proceeded to make a threat hunt report with my findings and investigations using MITRE Attack Framework.
+
