@@ -32,3 +32,6 @@ To begin, I started capturing network traffic using Wireshark. The focus was on 
 I applied a Wireshark filter to isolate DNS queries and identify any abnormal patterns, such as unusually long domain names or base32-encoded subdomains. This filter helps to capture unusually long DNS queries, which are characteristic of DNS tunneling.
 The filter used was:
 ![Capture](https://github.com/abdulhaire567/DNS-Tunneling-Threat-Hunt/blob/main/Screenshot%202025-04-15%20172044.png)
+
+## Step 3: Analyzing Suspicious DNS Queries
+Upon reviewing the DNS traffic, I found unusually long subdomain names that appeared to contain Base32-encoded data. I stripped the subdomain to reveal the encoded data. This indicates that the attacker is using Base32 encoding to hide the data in the DNS query "pirate.sea"
